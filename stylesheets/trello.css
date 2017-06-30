@@ -1,0 +1,316 @@
+.create-board,
+.new-board {
+    font-family: Microsoft JhengHei
+}
+
+.create-board {
+    width: 90px;
+    height: 90px;
+    background-color: #E2E4E6;
+    border-radius: 5px;
+    font-size: 18px
+}
+.list-container{
+    margin: 0 100px 0 0;
+    padding-left: 0;
+}
+.list-row {
+    display: inline-flex;
+    margin: 0 100px 0 0;
+    width: 400px;
+}
+
+.text-center {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.create-list::placeholder {
+    color: #FFF;
+    text-align: center
+}
+
+.list-margin {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 10px
+}
+
+.list-card,
+.list-layout {
+    display: inline-flex;
+    cursor: pointer
+}
+
+.create-list {
+    width: 250px;
+    color: #FFF;
+    background-color: #aaa;
+    margin: 5px
+}
+
+.list-layout {
+    position: relative;
+    width: 300px;
+    min-height: 40px;
+    border-radius: 3px 3px 0 0;
+    background-color: #E3E3E3;
+    margin: 5px 5px 0;
+    padding: 10px 10px 0
+}
+
+.modal-close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.list-modal-close {
+    top: 10px;
+}
+
+.modal-close:focus,
+.modal-close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.list-header {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px
+}
+
+.list-header p {
+    word-break: break-all;
+    width: 250px
+}
+
+.list-button,
+.list-cards {
+    top: 0;
+    width: 300px;
+    background-color: #E3E3E3;
+    position: relative
+}
+
+.list-cards {
+    min-height: 30px;
+    max-height: 90vh;
+    overflow-x: auto;
+    margin: 0 5px
+}
+
+.list-button {
+    height: 30px;
+    text-align: right;
+    margin: 0 5px 5px;
+    border-radius: 0 0 3px 3px
+}
+
+.list-card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 5px 6px 6px;
+    width: 270px;
+    min-height: 30px;
+    padding: 10px 8px
+}
+
+.list-card>p {
+    display: block;
+    word-break: break-all;
+    width: 240px;
+    float: left
+}
+
+.list-button>span {
+    cursor: pointer;
+    cursor: hand;
+    position: relative;
+    top: 20%
+}
+
+.list-button-modal,
+.new-board-model {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0
+}
+
+.list-cards-margin {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.list-close {
+    top: auto;
+    color: #000
+}
+
+.list-button-modal {
+    display: none;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.list-board,
+.new-board {
+    height: 100px;
+    font-size: 18px
+}
+
+.list-button-content,
+.list-button-content:hover {
+    margin-top: 7px;
+    background-color: #E2E4E6;
+    border: 2px solid #3a5f8b;
+    border-radius: 15px
+}
+
+.new-board {
+    display: inline-block;
+    margin: 10px;
+    width: 100%;
+    background-color: #E2E4E6;
+    border-radius: 5px
+}
+
+.new-board-model {
+    display: none
+}
+
+.board-inline-block,
+.list-board {
+    display: inline-block;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px
+}
+
+.list-modal-content {
+    min-height: 80vh;
+    width: 80vw
+}
+
+.list-board {
+    margin: 10px;
+    background-color: RGB(0, 112, 192);
+    border-radius: 5px;
+    color: #FFF
+}
+
+.list-board a,
+.list-board:active,
+.list-board:focus,
+.list-board:hover {
+    background-color: RGB(0, 88, 154);
+    color: #FFF
+}
+
+.new-board-model input[type=text] {
+    background-color: #E2E4E6
+}
+
+.new-board-model>div>div:nth-child(2) {
+    border-bottom-style: groove;
+    height: 40px
+}
+
+.new-board-model fieldset>input {
+    width: 30%
+}
+
+.hidden {
+    display: none
+}
+
+[data-fakenode] {
+    background-color: gray
+}
+
+.sortable-ghost {
+    opacity: .2
+}
+
+[draggable] {
+    position: relative;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.card-modify {
+    position: absolute;
+    margin-left: 80%;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+.cls-1,
+.cls-2 {
+    fill: grey;
+}
+
+.svg-hover {
+    fill: black;
+}
+
+.card-modify-modal textarea {
+    display: block;
+    width: 100%;
+    border-radius: 4px 4px 4px 0px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    min-height: 100px
+}
+
+.btn-modify {
+    border-radius: 0px 0px 4px 4px;
+    height: 30px;
+}
+
+.card-modify-content {
+    position: fixed;
+    width: 270px;
+}
+
+.list-board-close {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 88%;
+    color: #E2E3E2;
+    font-size: 28px;
+    width: 30px;
+    padding-left: 6;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.list-board-close:hover {
+    color: #000;
+}
