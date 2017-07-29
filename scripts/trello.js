@@ -157,5 +157,5 @@
  }).on('input', function () {
      txt(this);
  });
- var path = window.location.pathname + "/page2.html";
+ var path = window.location.origin + "/page2.html";
  document.title = window.location.hash.substr(1);
